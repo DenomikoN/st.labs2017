@@ -138,6 +138,7 @@
     <Content Include="content\scss\categories.scss" />
     <Content Include="content\scss\slider.scss" />
     <Content Include="content\scss\portfolio.scss" />
+    <Content Include="content\scss\signup.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
