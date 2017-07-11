@@ -137,6 +137,7 @@
     <Content Include="content\scss\splash-screen.scss" />
     <Content Include="content\scss\categories.scss" />
     <Content Include="content\scss\slider.scss" />
+    <Content Include="content\scss\portfolio.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

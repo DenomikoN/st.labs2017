@@ -1,0 +1,59 @@
+﻿@import "variables.scss";
+
+$text-color: #AFAEAE;
+
+.portfolios {
+    padding: 60px 0;
+}
+
+.portfolios-item-wrapper {
+    display: table-row;
+}
+
+.portfolios__item:first-child {
+    padding-right: 30px;
+}
+
+.portfolios__item {
+    width: 50%;
+    display: table-cell;
+    padding-bottom: 30px;
+
+    .title {
+        font-size: 26px;
+    }
+
+    .text {
+        font-size: 14px;
+        color: $text-color;
+        overflow: hidden;
+        line-height: 25px;
+    }
+}
+
+.portfolio-image-wrapper {
+    float: left;
+    padding-top: 10px;
+    padding-right: 30px;
+    width: 100px;
+}
+
+.portfolio__image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.portfolio-title-wrapper {
+    padding-bottom: 10px;
+}
+
+.portfolio__link {
+    color: $secondary-color;
+    text-decoration: none;
+
+    &:hover {
+        color: $hover-link;
+    }
+}
