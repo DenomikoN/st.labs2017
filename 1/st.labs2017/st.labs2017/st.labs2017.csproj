@@ -98,6 +98,42 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="fonts\Lato\Lato-Black.ttf" />
+    <Content Include="fonts\Lato\Lato-BlackItalic.ttf" />
+    <Content Include="fonts\Lato\Lato-Bold.ttf" />
+    <Content Include="fonts\Lato\Lato-BoldItalic.ttf" />
+    <Content Include="fonts\Lato\Lato-Hairline.ttf" />
+    <Content Include="fonts\Lato\Lato-HairlineItalic.ttf" />
+    <Content Include="fonts\Lato\Lato-Italic.ttf" />
+    <Content Include="fonts\Lato\Lato-Light.ttf" />
+    <Content Include="fonts\Lato\Lato-LightItalic.ttf" />
+    <Content Include="fonts\Lato\Lato-Regular.ttf" />
+    <Content Include="fonts\PTSans\PT_Sans-Web-Bold.ttf" />
+    <Content Include="fonts\PTSans\PT_Sans-Web-BoldItalic.ttf" />
+    <Content Include="fonts\PTSans\PT_Sans-Web-Italic.ttf" />
+    <Content Include="fonts\PTSans\PT_Sans-Web-Regular.ttf" />
+    <Content Include="fonts\SourceSansPro\SourceSansPro-Black.ttf" />
+    <Content Include="fonts\SourceSansPro\SourceSansPro-BlackItalic.ttf" />
+    <Content Include="fonts\SourceSansPro\SourceSansPro-Bold.ttf" />
+    <Content Include="fonts\SourceSansPro\SourceSansPro-BoldItalic.ttf" />
+    <Content Include="fonts\SourceSansPro\SourceSansPro-ExtraLight.ttf" />
+    <Content Include="fonts\SourceSansPro\SourceSansPro-ExtraLightItalic.ttf" />
+    <Content Include="fonts\SourceSansPro\SourceSansPro-Italic.ttf" />
+    <Content Include="fonts\SourceSansPro\SourceSansPro-Light.ttf" />
+    <Content Include="fonts\SourceSansPro\SourceSansPro-LightItalic.ttf" />
+    <Content Include="fonts\SourceSansPro\SourceSansPro-Regular.ttf" />
+    <Content Include="fonts\SourceSansPro\SourceSansPro-SemiBold.ttf" />
+    <Content Include="fonts\SourceSansPro\SourceSansPro-SemiBoldItalic.ttf" />
+    <Content Include="content\scss\main.scss" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <Content Include="content\scss\buttons.scss" />
+    <Content Include="content\scss\common.scss" />
+    <Content Include="content\scss\fonts.scss" />
+    <Content Include="content\scss\header.scss" />
+    <Content Include="content\scss\variables.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -106,6 +142,44 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\css\main.css" />
+    <Content Include="content\css\main.min.css">
+      <DependentUpon>main.css</DependentUpon>
+    </Content>
+    <Content Include="fonts\Lato\OFL.txt" />
+    <Content Include="fonts\PTSans\OFL.txt" />
+    <Content Include="fonts\SourceSansPro\OFL.txt" />
+    <Content Include="Images\arrow-down.png" />
+    <Content Include="Images\arrow-left.png" />
+    <Content Include="Images\arrow-right.png" />
+    <Content Include="Images\bcgrd.png" />
+    <Content Include="Images\btn.png" />
+    <Content Include="Images\envelop.png" />
+    <Content Include="Images\facebook.png" />
+    <Content Include="Images\flask.png" />
+    <Content Include="Images\gears.png" />
+    <Content Include="Images\google-plus.png" />
+    <Content Include="Images\in.png" />
+    <Content Include="Images\line-horizontal-dark.png" />
+    <Content Include="Images\line-horizontal.png" />
+    <Content Include="Images\line.png" />
+    <Content Include="Images\line1.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\loudspeaker.png" />
+    <Content Include="Images\men1.png" />
+    <Content Include="Images\men2.png" />
+    <Content Include="Images\menu-arrow.png" />
+    <Content Include="Images\nav.png" />
+    <Content Include="Images\pc.png" />
+    <Content Include="Images\round.png" />
+    <Content Include="Images\slider1.png" />
+    <Content Include="Images\slider2.png" />
+    <Content Include="Images\slider3.png" />
+    <Content Include="Images\slider4.png" />
+    <Content Include="Images\sliders.png" />
+    <Content Include="Images\twitter.png" />
+    <Content Include="Images\woman1.png" />
+    <Content Include="Images\woman2.png" />
     <Content Include="index.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
@@ -114,6 +188,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
