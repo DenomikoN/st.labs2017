@@ -1,0 +1,90 @@
+﻿@import "variables.scss";
+
+$form-color: #597276;
+
+.sign-up {
+    background: $primary-color;
+}
+
+.sign-up__header {
+    padding: 40px;
+    border-bottom: 2px solid $form-color;
+
+    .title, .sub-title {
+        color: #fff;
+    }
+}
+
+.sign-up__content {
+    display: table-row;
+}
+
+.sign-up-wrapper:first-child {
+    padding-right: 30px;
+}
+
+.sign-up-wrapper {
+    width: 50%;
+    display: table-cell;
+    padding: 40px 0 50px;
+    vertical-align: top;
+}
+
+.sign-up__introduction {
+    margin-bottom: 30px;
+
+    .text {
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .title {
+        color: #fff;
+        font-size: 18px;
+    }
+}
+
+.introduction-img {
+    float: left;
+    padding-right: 20px;
+}
+
+.sign-up__input {
+    background-color: $form-color;
+    border: none;
+    width: 80%;
+    border-radius: 3px;
+    line-height: 35px;
+    margin-right: 10px;
+}
+
+
+.button-third {
+    background-color: $form-color;
+
+    &:hover {
+        background-color: #B5C7C9;
+    }
+}
+
+.sign-up__twit-message {
+    background: $form-color;
+    padding: 25px;
+    border-radius: 5px;
+
+    .twit-message__image {
+        float: left;
+        padding-right: 25px;
+        padding-top: 5px;
+    }
+
+    .twit-message__text {
+        overflow: hidden;
+
+        .text {
+            color: $third-color;
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
+}
